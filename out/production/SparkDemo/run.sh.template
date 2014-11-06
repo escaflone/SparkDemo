@@ -1,0 +1,2 @@
+./spark-submit --class week2.SogouQA --executor-memory 1g ~/h2/testData/SparkDemo.jar ~/h2/testData/SogouQ1.txt ~/h2/testData/output
+./spark-submit --class week2.join --executor-memory 1g ~/h2/testData/week2/SparkDemo.jar ~/h2/testData/week2/join/reg.tsv ~/h2/testData/week2/join/clk.tsv
